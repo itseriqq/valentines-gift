@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { gsap } from "gsap";
 import { Moon, Sun } from "lucide-react";
-import { cn } from "../lib/utils.ts";
+import { cn } from "@/lib/utils";
 
 interface MenuItemProps {
   link: string;
@@ -214,10 +214,10 @@ function ThemeToggle({ className, isDark, onToggle }: ThemeToggleProps) {
 }
 
 const demoItems = [
-  { link: '#amor', text: 'Amor', image: 'https://picsum.photos/seed/picsum1/600/400' },
-  { link: '#carinho', text: 'Carinho', image: 'https://picsum.photos/seed/picsum2/600/400' },
-  { link: '#amizade', text: 'Amizade', image: 'https://picsum.photos/seed/picsum3/600/400' },
-  { link: '#afeto', text: 'Afeto', image: 'https://picsum.photos/seed/picsum4/600/400' }
+  { link: '#mojave', text: 'Mojave', image: 'https://picsum.photos/seed/picsum1/600/400' },
+  { link: '#sonoma', text: 'Sonoma', image: 'https://picsum.photos/seed/picsum2/600/400' },
+  { link: '#monterey', text: 'Monterey', image: 'https://picsum.photos/seed/picsum3/600/400' },
+  { link: '#sequoia', text: 'Sequoia', image: 'https://picsum.photos/seed/picsum4/600/400' }
 ];
 
 const FlowingMenuDemo = () => {
@@ -248,7 +248,7 @@ const FlowingMenuDemo = () => {
         }
       `}</style>
 
-      <div className="flex flex-col w-full min-h-screen justify-center items-center bg-gray-100 dark:bg-neutral-950 p-4 transition-colors duration-300">
+      <div className="flex flex-col w-full min-h-screen justify-center items-center bg-gray-100 dark:bg-neutral-900 p-4 transition-colors duration-300">
         <div className="mb-6">
           <ThemeToggle 
             isDark={isDarkMode} 
