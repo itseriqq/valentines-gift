@@ -71,7 +71,7 @@ const FloatingElementsHero = () => {
         transition={{ duration: 0.88, delay: 1.5 }}
       >
         <div className="d-flex flex-row mb-7">
-          <span className="text-5xl md:text-7xl z-50 text-white font-calendas italic">{"for my "}</span>
+          <span className="text-5xl md:text-7xl z-50 text-white font-calendas italic ">{"for my "}</span>
           <TextWritter
             text={[
               "Valentine",
@@ -81,7 +81,7 @@ const FloatingElementsHero = () => {
               "Sweetheart",
             ]}
             speed={100}
-            className="text-5xl md:text-7xl z-50 font-calendas italic text-yellow-500"
+            className="text-5xl md:text-7xl z-50 font-calendas italic text-yellow-500 font-bold"
             waitTime={1500}
             deleteSpeed={100}
             cursorChar={"_"}

@@ -8,7 +8,7 @@ function BasicTiltCard() {
         style={{
           borderRadius: '12px',
         }}
-        className='flex max-w-[270px] flex-col overflow-hidden border border-zinc-950/10 bg-white dark:border-zinc-50/10 dark:bg-zinc-900'
+        className='flex mx-auto max-w-[270px] flex-col overflow-hidden border border-zinc-950/10 bg-white dark:border-zinc-50/10 dark:bg-zinc-900'
       >
         <img
           src='https://images.beta.cosmos.so/f7fcb95d-981b-4cb3-897f-e35f6c20e830?format=jpeg'
@@ -26,7 +26,7 @@ function BasicTiltCard() {
   );
 }
 
-function TiltSpotlight() {
+function TiltSpotlight({ image }: { image: string }) {
   return (
     <div className='aspect-video max-w-sm'>
       <Tilt
@@ -53,9 +53,9 @@ function TiltSpotlight() {
         />
         <img
           // src='https://images.beta.cosmos.so/f7fcb95d-981b-4cb3-897f-e35f6c20e830?format=jpeg'
-          src='https://images.beta.cosmos.so/40fbc749-6796-485b-9588-20204dd7c8f0?format=jpeg'
+          src={image}
           alt='Ghost in the shell - Kôkaku kidôtai'
-          className='h-32 w-full rounded-lg object-cover grayscale duration-700 group-hover:grayscale-0'
+          className='h-full w-full rounded-lg object-cover grayscale duration-700 group-hover:grayscale-0'
         />
       </Tilt>
       <div className='flex flex-col space-y-0.5 pb-0 pt-3'>
