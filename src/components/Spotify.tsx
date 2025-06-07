@@ -30,6 +30,20 @@ export function Spotify() {
       albumArt:
         "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
     },
+    {
+      title: "Dezembro",
+      artists: "Arthur Diniz",
+      duration: 120,
+      albumArt:
+        "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
+    },
+    {
+      title: "Lisboa",
+      artists: "ANAVITÓRIA, Lenine",
+      duration: 219,
+      albumArt:
+        "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
+    },
   ];
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-200 dark:bg-neutral-800 text-white">
