@@ -6,9 +6,10 @@ export function Spotify() {
     {
       title: "Coisa Boa",
       artists: "Lagum",
-      duration: 207,
+      duration: 139,
       albumArt:
         "/album/lagum_coisa_boa.png",
+      music: "/musics/coisa_boa.mp3"
     },
     {
       title: "Toda Vez Que Tu Sorri",
@@ -16,34 +17,39 @@ export function Spotify() {
       duration: 165,
       albumArt:
         "/album/doral_toda_vez_que_tu_sorri.png",
+      music: "/musics/toda_vez_que_tu_sorri.mp3"
     },
     {
       title: "Deixa",
       artists: "Lagum",
-      duration: 212,
+      duration: 179,
       albumArt:
-        "https://i.scdn.co/image/ab67616d0000b273712701c5e263efc8726b1464",
+        "/album/deixa.png",
+      music: "/musics/deixa.mp3"
     },
     {
       title: "Telephones",
       artists: "Vacations",
       duration: 212,
       albumArt:
-        "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
+        "/album/vacations.png",
+      music: "/musics/vacations.mp3"
     },
     {
       title: "Dezembro",
       artists: "Arthur Diniz",
-      duration: 120,
+      duration: 121,
       albumArt:
-        "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
+        "/album/dezembro.png",
+      music: "/musics/dezembro.mp3"
     },
     {
       title: "Lisboa",
       artists: "ANAVITÓRIA, Lenine",
-      duration: 219,
+      duration: 224,
       albumArt:
-        "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
+        "/album/lisboa.png",
+      music: "/musics/lisboa.mp3"
     },
     {
       title: "Toque de Recolher",
@@ -51,6 +57,7 @@ export function Spotify() {
       duration: 173,
       albumArt:
         "/album/toque_de_recolher.png",
+      music: ""
     },
   ];
   return (
