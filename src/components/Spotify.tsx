@@ -12,21 +12,21 @@ export function Spotify() {
     {
       title: "Toda Vez Que Tu Sorri",
       artists: "Doral",
-      duration: 226,
+      duration: 165,
       albumArt:
         "/album/doral_toda_vez_que_tu_sorri.png",
     },
     {
-      title: "Heat Waves",
-      artists: "Glass Animals",
-      duration: 237,
+      title: "Deixa",
+      artists: "Lagum",
+      duration: 212,
       albumArt:
         "https://i.scdn.co/image/ab67616d0000b273712701c5e263efc8726b1464",
     },
     {
-      title: "Perfect",
-      artists: "Ed Sheeran",
-      duration: 263,
+      title: "Telephones",
+      artists: "Vacations",
+      duration: 212,
       albumArt:
         "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
     },
