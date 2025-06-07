@@ -1,9 +1,9 @@
 import { Spotify } from "@/components/Spotify"
 
-const Playlists = () => {
+const Playlist = () => {
     return (
         <Spotify />
     )
 }
 
-export default Playlists
+export default Playlist

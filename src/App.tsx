@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Gallery from './pages/InfiniteGallery';
 import { Navbar } from './components/Navbar';
-import Playlists from './pages/Playlists';
+import Playlist from './pages/Playlist';
 import Home from './pages/Home';
 
 function App() {
@@ -23,7 +23,7 @@ function Main() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/galeria" element={<Gallery />} />
-        <Route path="/playlists" element={<Playlists />} />
+        <Route path="/playlist" element={<Playlist />} />
       </Routes>
     </>
   );
