@@ -67,7 +67,6 @@ export default function TimelineDemo() {
             <TiltSpotlight title={"OLHA QUE ESPETÁCULO"} subtitle={"Mulher linda formidável tudo di bão, você é impressionante!"} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8976.jpg?alt=media&token=a472153a-9f2e-480a-8675-a281937326bf" />
             <TiltSpotlight title={"Companhia Favorita"} subtitle={"Nossa primeira ida ao médico, quando eu havia ficado doente por conta do ar condicionado do estágio."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/D2C0E111-5816-4BB6-9AD0-FF9F29034298.jpg?alt=media&token=4750c2eb-0c65-4bad-a24d-dd61e75118dc" />
             <TiltSpotlight title={"Passeiozinho"} subtitle={"Indo fazer entrega com meus pais na cidade que esqueci o nome (me lembre), e paramos pra almoçar na estrada."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_7289.jpg?alt=media&token=9dce7d47-ee6e-49d7-83af-2101cb435d48" />
-            <TiltSpotlight title={"Lanchezão"} subtitle={"Nossa foto com os lanches maravilhosos daquela praça de Food Trucks."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8994.jpg?alt=media&token=32016ab9-6e2e-40d0-9cfb-763b24140812" />
           </div>
         </div>
       ),
