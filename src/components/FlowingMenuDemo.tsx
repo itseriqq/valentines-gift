@@ -153,7 +153,7 @@ const FlowingMenu: React.FC<FlowingMenuProps> = ({ items = [] }) => {
   );
 };
 
-function ThemeToggle({ className, isDark, onToggle }: ThemeToggleProps) {
+export function ThemeToggle({ className, isDark, onToggle }: ThemeToggleProps) {
   return (
     <div
       className={cn(

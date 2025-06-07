@@ -2,7 +2,7 @@ import { Balloons } from "@/components/ui/Balloons"
 import { Button } from "@/components/ui/button"
 import { useRef } from "react"
 
-export function DefaultBalloonsDemo() {
+export function BalloonsButton() {
   const balloonsRef = useRef<{ launchAnimation: () => void } | null>(null)
 
   const handleLaunch = () => {
@@ -12,18 +12,17 @@ export function DefaultBalloonsDemo() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-4 p-4">      
-      <Button 
+    <>
+      <Button
         onClick={handleLaunch}
-        className="bg-blue-500 hover:bg-blue-600"
+        className="bg-white text-black rounded-md hover:border-1 hover:border-neutral-300 hover:bg-white hover:text-black hover:scale-110 transition-transform cursor-pointer font-calendas italic"
       >
-        Launch Balloons! 🎈
+        feliz dia dos namorados! 🎈
       </Button>
-
-      <Balloons 
+      <Balloons
         ref={balloonsRef}
         type="default"
       />
-    </div>
+    </>
   )
 }

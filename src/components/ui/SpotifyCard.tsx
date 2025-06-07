@@ -263,7 +263,7 @@ export function SpotifyCard({ songs }: SpotifyCardProps) {
                   letterSpacing: '0.05em',
                   filter: isHovered ? 'drop-shadow(0 0 2px rgba(30, 215, 96, 0.5))' : 'none'
                 }}>
-                Premium Experience
+                Selecionadas à dedo
               </div>
             </div>
           </div>
@@ -297,7 +297,7 @@ export function SpotifyCard({ songs }: SpotifyCardProps) {
              WebkitBackgroundClip: isHovered ? 'text' : 'none',
              WebkitTextFillColor: isHovered ? 'transparent' : 'inherit'
            }}>
-          Search for music and podcasts, browse your library, and control playback.
+          Músicas que escuto e me fazem lembrar de você. Controle a música utilizando o botão de play.
         </p>
         <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-5 mx-2 rounded-full" 
           style={{ 

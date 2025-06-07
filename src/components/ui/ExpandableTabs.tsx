@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useOnClickOutside } from "usehooks-ts";
 import { cn } from "@/lib/utils";
 import type { LucideIcon } from "lucide-react";
+import { useNavigate } from 'react-router-dom';
 
 interface Tab {
   title: string;
@@ -58,12 +59,19 @@ export function ExpandableTabs({
   const outsideClickRef = React.useRef<HTMLDivElement>(null);
 
   useOnClickOutside(outsideClickRef as React.RefObject<HTMLElement>, () => {
-    setSelected(null);
+    // setSelected(null);
     onChange?.(null);
   });
 
-  const handleSelect = (index: number) => {
+  const navigate = useNavigate()
+
+  const handleSelect = (index: number, title: string) => {
     setSelected(index);
+    if (index === 0) {
+      navigate("/")
+      return
+    }
+    navigate(title.toLowerCase())
     onChange?.(index);
   };
 
@@ -92,7 +100,7 @@ export function ExpandableTabs({
             initial={false}
             animate="animate"
             custom={selected === index}
-            onClick={() => handleSelect(index)}
+            onClick={() => handleSelect(index, tab.title)}
             transition={transition}
             className={cn(
               "relative flex items-center rounded-xl px-4 py-2 text-sm font-medium transition-colors duration-300",

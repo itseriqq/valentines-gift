@@ -3,18 +3,18 @@ import { SpotifyCard } from "@/components/ui/SpotifyCard";
 export function Spotify() {
   const songs = [
     {
-      title: "Finding Her",
-      artists: "Kushagra, Bharath, Saaheal",
+      title: "Coisa Boa",
+      artists: "Lagum",
       duration: 207,
       albumArt:
-        "https://i.scdn.co/image/ab67616d00001e0283141000ee8ce3b893a0b425",
+        "/album/lagum_coisa_boa.png",
     },
     {
-      title: "Daylight",
-      artists: "David Kushner",
+      title: "Toda Vez Que Tu Sorri",
+      artists: "Doral",
       duration: 226,
       albumArt:
-        "https://i.scdn.co/image/ab67616d0000b273e40c514edddb844439af6201",
+        "/album/doral_toda_vez_que_tu_sorri.png",
     },
     {
       title: "Heat Waves",
@@ -32,7 +32,7 @@ export function Spotify() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-transparent text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-200 dark:bg-neutral-800 text-white">
       <main className="w-screen h-screen flex justify-center items-center">
         <SpotifyCard songs={songs} />
       </main>

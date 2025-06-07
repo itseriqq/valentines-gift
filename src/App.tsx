@@ -1,11 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TimelineDemo from './pages/Home/index';
-import Gallery from './pages/Gallery';
+import Gallery from './pages/InfiniteGallery';
+import { Navbar } from './components/Navbar';
+import Playlists from './pages/Playlists';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Router>
-      <Main />
+      <div>
+        <Main />
+        <div className='fixed bottom-5 left-0 right-0 flex justify-center w-full'>
+          <Navbar />
+        </div>
+      </div>
     </Router>
   );
 }
@@ -14,8 +21,9 @@ function Main() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<TimelineDemo />} />
+        <Route path="/" element={<Home />} />
         <Route path="/galeria" element={<Gallery />} />
+        <Route path="/playlists" element={<Playlists />} />
       </Routes>
     </>
   );

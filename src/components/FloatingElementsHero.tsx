@@ -6,6 +6,8 @@ import { motion, stagger, useAnimate } from "motion/react"
 import Floating, {
   FloatingElement,
 } from "@/components/ui/FloatingElement"
+import { BalloonsButton } from "./BallonsButton"
+import { TextWritter } from "./ui/TextWritter"
 
 const exampleImages = [
   {
@@ -58,7 +60,7 @@ const exampleImages = [
   },
 ]
 
-const Preview = () => {
+const FloatingElementsHero = () => {
   const [scope, animate] = useAnimate()
 
   useEffect(() => {
@@ -67,7 +69,7 @@ const Preview = () => {
 
   return (
     <div
-      className="flex w-full h-full min-h-[600px] justify-center items-center bg-black overflow-hidden"
+      className="flex w-full h-full min-h-[800px] justify-center items-center bg-neutral-900 overflow-hidden"
       ref={scope}
     >
       <motion.div
@@ -76,12 +78,38 @@ const Preview = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.88, delay: 1.5 }}
       >
-        <p className="text-5xl md:text-7xl z-50 text-white font-calendas italic">
-          fancy.
-        </p>
-        <p className="text-xs z-50 hover:scale-110 transition-transform bg-white text-black rounded-full py-2 w-20 cursor-pointer">
-          Download
-        </p>
+        <div className="d-flex flex-row mb-7">
+          <span className="text-5xl md:text-7xl z-50 text-white font-calendas italic">{"for my "}</span>
+          <TextWritter
+            text={[
+              "Valentine",
+              "Sunshine",
+              "Love",
+              "Carolina",
+              "Sweetheart",
+            ]}
+            speed={100}
+            className="text-5xl md:text-7xl z-50 font-calendas italic text-yellow-500"
+            waitTime={1500}
+            deleteSpeed={100}
+            cursorChar={"_"}
+          />
+        </div>
+        <BalloonsButton />
+        <div className="d-flex flex-col gap-0">
+          <p className="text-neutral-300 text-xs -mb-2 italic">Created with love,</p>
+          <TextWritter
+            text={[
+              "by Erick",
+            ]}
+            speed={0}
+            className="text-neutral-300 text-xs"
+            waitTime={1500}
+            deleteSpeed={100}
+            cursorChar={"_"}
+            cursorClassName=""
+          />
+        </div>
       </motion.div>
 
       <Floating sensitivity={-1} className="overflow-hidden">
@@ -148,4 +176,4 @@ const Preview = () => {
   )
 }
 
-export { Preview }
+export { FloatingElementsHero }

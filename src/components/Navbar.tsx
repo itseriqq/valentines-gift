@@ -1,14 +1,14 @@
-import { Bell, Home, HelpCircle, Settings, Shield, Mail, User, FileText, Lock } from "lucide-react";
+import { Home, HelpCircle, BookImage, Music, Mail, User, FileText, Lock, GalleryHorizontalEnd } from "lucide-react";
 import { ExpandableTabs } from "@/components/ui/ExpandableTabs";
 
 function Navbar() {
   const tabs = [
-    { title: "Dashboard", icon: Home },
-    { title: "Notifications", icon: Bell },
+    { title: "Início", icon: Home },
+    { title: "Galeria", icon: GalleryHorizontalEnd },
     { type: "separator" as const },
-    { title: "Settings", icon: Settings },
-    { title: "Support", icon: HelpCircle },
-    { title: "Security", icon: Shield },
+    { title: "Playlists", icon: Music },
+    { title: "Fotinhas", icon: BookImage },
+    { title: "Texto", icon: HelpCircle },
   ];
 
   return (
