@@ -6,7 +6,7 @@ function Navbar() {
     { title: "Início", icon: Home },
     { type: "separator" as const },
     { title: "Galeria", icon: BookImage },
-    { title: "Playlists", icon: Music },
+    { title: "Playlist", icon: Music },
     { title: "Texto", icon: Mail },
   ];
 

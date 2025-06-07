@@ -21,9 +21,10 @@ function Main() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/galeria" element={<Gallery />} />
-        <Route path="/playlist" element={<Playlist />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/galeria" element={<Gallery />} />
+      <Route path="/playlist" element={<Playlist />} />
+      <Route path="*" element={<Home />} />
       </Routes>
     </>
   );

@@ -45,6 +45,13 @@ export function Spotify() {
       albumArt:
         "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
     },
+    {
+      title: "Toque de Recolher",
+      artists: "Sophi, Julia Avelin",
+      duration: 173,
+      albumArt:
+        "/album/toque_de_recolher.png",
+    },
   ];
   return (
     <div className="flex flex-row items-center px-20 justify-center min-h-screen bg-neutral-200 dark:bg-neutral-800 text-white">

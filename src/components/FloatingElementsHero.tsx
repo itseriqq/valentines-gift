@@ -61,7 +61,7 @@ const FloatingElementsHero = () => {
 
   return (
     <div
-      className="flex w-full h-full min-h-[800px] justify-center items-center bg-neutral-900 overflow-hidden"
+      className="flex w-full h-full min-h-screen justify-center items-center bg-neutral-900 overflow-hidden"
       ref={scope}
     >
       <motion.div
@@ -89,7 +89,7 @@ const FloatingElementsHero = () => {
         </div>
         <BalloonsButton />
         <div className="d-flex flex-col gap-0">
-          <p className="text-neutral-300 text-xs -mb-2 italic">Created with love,</p>
+          <p className="text-neutral-300 text-xs -mb-2 italic">Made with love,</p>
           <TextWritter
             text={[
               "by Erick",
