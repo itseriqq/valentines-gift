@@ -63,12 +63,10 @@ export default function TimelineDemo() {
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8862.jpg?alt=media&token=e0a80a17-c5ea-4c1d-9ee6-876fd1ff7912" />
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8911.jpg?alt=media&token=f31d7d3a-1d42-4863-8601-d7296f7a2bc4" />
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8935.jpg?alt=media&token=49e14f4d-68a7-4b41-b5bf-ebe94dd6a890" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8937.jpg?alt=media&token=916ca25b-6006-4e9d-8658-73eae11001e7" />
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8942.jpg?alt=media&token=fcb464e2-bc2c-4bc8-8c49-b2fdf10e3418" />
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8976.jpg?alt=media&token=a472153a-9f2e-480a-8675-a281937326bf" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8994.jpg?alt=media&token=32016ab9-6e2e-40d0-9cfb-763b24140812" />
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/D2C0E111-5816-4BB6-9AD0-FF9F29034298.jpg?alt=media&token=4750c2eb-0c65-4bad-a24d-dd61e75118dc" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/1713773567288.jpg?alt=media&token=3b5ca7e2-bccf-49f9-8250-9808fe1d7771" />
+            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8994.jpg?alt=media&token=32016ab9-6e2e-40d0-9cfb-763b24140812" />
           </div>
         </div>
       ),
@@ -104,8 +102,6 @@ export default function TimelineDemo() {
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1746.JPG?alt=media&token=b499592b-7fc3-4996-95e3-bb507b6d8c04" />
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_2361.jpg?alt=media&token=5006b344-8396-4373-9368-333640d4dbaf" />
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1895.JPG?alt=media&token=628ca711-0020-40ba-a9ee-f6455125b28b" />
-            <TiltSpotlight title={""} subtitle={""} image="" />
-            <TiltSpotlight title={""} subtitle={""} image="" />
 
           </div>
         </div>

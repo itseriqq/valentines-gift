@@ -12,7 +12,7 @@ function BasicTiltCard() {
       >
         <img
           src='https://images.beta.cosmos.so/f7fcb95d-981b-4cb3-897f-e35f6c20e830?format=jpeg'
-          alt='Ghost in the shell - Kôkaku kidôtai'
+          alt='fotinha <3'
           className='h-48 w-full object-cover'
         />
         <div className='p-2'>
@@ -54,7 +54,7 @@ function TiltSpotlight({ image, title="", subtitle="" }: { image: string; title:
         <img
           // src='https://images.beta.cosmos.so/f7fcb95d-981b-4cb3-897f-e35f6c20e830?format=jpeg'
           src={image}
-          alt='Ghost in the shell - Kôkaku kidôtai'
+          alt='fotinha <3'
           className='h-full w-full rounded-lg object-cover grayscale duration-700 group-hover:grayscale-0'
         />
       </Tilt>

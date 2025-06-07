@@ -63,7 +63,7 @@ const images = [
   {
     id: 12,
     alt: "Pagoda silhouetted during golden hour",
-    src: "https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_4880.jpg?alt=media&token=668579fb-fd7d-4d82-ab82-d7eb42aa0a9b",
+    src: "https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_9323.jpg?alt=media&token=b5e57edc-0efd-4b31-90ac-c27df12fe0c5",
   },
   {
     id: 13,
