@@ -26,7 +26,7 @@ function BasicTiltCard() {
   );
 }
 
-function TiltSpotlight({ image }: { image: string }) {
+function TiltSpotlight({ image, title="", subtitle="" }: { image: string; title: string; subtitle: string; }) {
   return (
     <div className='aspect-video max-w-sm'>
       <Tilt
@@ -60,9 +60,9 @@ function TiltSpotlight({ image }: { image: string }) {
       </Tilt>
       <div className='flex flex-col space-y-0.5 pb-0 pt-3'>
         <h3 className='font-mono text-sm font-medium text-zinc-500 dark:text-zinc-400'>
-          2001: A Space Odyssey
+          {title}
         </h3>
-        <p className='text-sm text-black dark:text-white'>Stanley Kubrick</p>
+        <p className='text-sm text-black dark:text-white'>{subtitle}</p>
       </div>
     </div>
   );
