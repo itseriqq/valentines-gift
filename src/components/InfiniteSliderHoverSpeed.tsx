@@ -37,6 +37,6 @@ function InfiniteSliderHoverSpeed() {
   );
 }
 
-export default {
-  InfiniteSliderHoverSpeed
-};
+export default 
+InfiniteSliderHoverSpeed
+

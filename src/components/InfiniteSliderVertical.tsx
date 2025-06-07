@@ -2,7 +2,7 @@ import { InfiniteSlider } from "@/components/ui/InfiniteSlider";
 
 function InfiniteSliderVertical() {
   return (
-    <div className='flex h-[350px] space-x-4'>
+    <div className='flex max-h-screen space-x-4'>
       <InfiniteSlider direction='vertical'>
         <img
           src='https://i.scdn.co/image/ab67616d00001e02ad24c5e36ddcd1957ad35677'
@@ -71,6 +71,4 @@ function InfiniteSliderVertical() {
   );
 }
 
-export default {
-  InfiniteSliderVertical,
-};
+export default InfiniteSliderVertical

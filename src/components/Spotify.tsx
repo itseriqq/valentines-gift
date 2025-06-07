@@ -1,4 +1,5 @@
 import { SpotifyCard } from "@/components/ui/SpotifyCard";
+import InfiniteSliderVertical from "./InfiniteSliderVertical";
 
 export function Spotify() {
   const songs = [
@@ -46,10 +47,12 @@ export function Spotify() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-200 dark:bg-neutral-800 text-white">
+    <div className="flex flex-row items-center px-20 justify-center min-h-screen bg-neutral-200 dark:bg-neutral-800 text-white">
+      <InfiniteSliderVertical />
       <main className="w-screen h-screen flex justify-center items-center">
         <SpotifyCard songs={songs} />
       </main>
+      <InfiniteSliderVertical />
     </div>
   );
 }

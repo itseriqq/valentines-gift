@@ -8,7 +8,7 @@ export default function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-500 dark:text-neutral-500 text-xs md:text-sm font-bold mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
+            Espero que goste!
           </p>
           <div className="grid grid-cols-2 gap-4">
             <TiltSpotlight title={"Festinha"} subtitle={"A primeira festinha que fomos juntos e tiramos várias fotos"} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_9073.jpg?alt=media&token=e21f22ed-bd3d-4b37-b369-c475e8715443" />
@@ -53,20 +53,7 @@ export default function TimelineDemo() {
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_6376.jpg?alt=media&token=af19d087-d67c-4c29-a58b-6d986a5736ee" />
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_7020.jpg?alt=media&token=e394ee3f-71da-4c38-b3a9-225b417ddf57" />
             <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_7036.jpg?alt=media&token=bc2121a1-9edc-4863-b395-1bbc56798799" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_7045.jpg?alt=media&token=99134534-108c-46a0-acad-b3293b01a7fd" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_7089.jpg?alt=media&token=c2de1a58-213f-4d4d-b391-3564ec93b2e6" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8054.jpg?alt=media&token=9191c6a2-6b8f-4d1a-bd89-1638fd3eb7a0" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8061.jpg?alt=media&token=e9fa4e9f-f50c-4bb8-b616-c38cc102bc80" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8067.jpg?alt=media&token=3a1c45df-519e-4713-954f-e4a932ae4884" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8094.jpg?alt=media&token=49d7450c-440c-4a5b-a556-6578b7bf2b89" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8827.jpg?alt=media&token=09b9713d-feb0-4fb1-8577-69ffb5b50bbd" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8862.jpg?alt=media&token=e0a80a17-c5ea-4c1d-9ee6-876fd1ff7912" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8911.jpg?alt=media&token=f31d7d3a-1d42-4863-8601-d7296f7a2bc4" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8935.jpg?alt=media&token=49e14f4d-68a7-4b41-b5bf-ebe94dd6a890" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8942.jpg?alt=media&token=fcb464e2-bc2c-4bc8-8c49-b2fdf10e3418" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8976.jpg?alt=media&token=a472153a-9f2e-480a-8675-a281937326bf" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/D2C0E111-5816-4BB6-9AD0-FF9F29034298.jpg?alt=media&token=4750c2eb-0c65-4bad-a24d-dd61e75118dc" />
-            <TiltSpotlight title={""} subtitle={""} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8994.jpg?alt=media&token=32016ab9-6e2e-40d0-9cfb-763b24140812" />
+            
           </div>
         </div>
       ),
