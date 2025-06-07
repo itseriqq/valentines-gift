@@ -66,6 +66,7 @@ export default function TimelineDemo() {
             <TiltSpotlight title={"Minha musa"} subtitle={"A mulher mais linda que já pisou nessa terra. Pra todo o sempre!"} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8942.jpg?alt=media&token=fcb464e2-bc2c-4bc8-8c49-b2fdf10e3418" />
             <TiltSpotlight title={"OLHA QUE ESPETÁCULO"} subtitle={"Mulher linda formidável tudo di bão, você é impressionante!"} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8976.jpg?alt=media&token=a472153a-9f2e-480a-8675-a281937326bf" />
             <TiltSpotlight title={"Companhia Favorita"} subtitle={"Nossa primeira ida ao médico, quando eu havia ficado doente por conta do ar condicionado do estágio."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/D2C0E111-5816-4BB6-9AD0-FF9F29034298.jpg?alt=media&token=4750c2eb-0c65-4bad-a24d-dd61e75118dc" />
+            <TiltSpotlight title={"Passeiozinho"} subtitle={"Indo fazer entrega com meus pais na cidade que esqueci o nome (me lembre), e paramos pra almoçar na estrada."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_7289.jpg?alt=media&token=9dce7d47-ee6e-49d7-83af-2101cb435d48" />
             <TiltSpotlight title={"Lanchezão"} subtitle={"Nossa foto com os lanches maravilhosos daquela praça de Food Trucks."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8994.jpg?alt=media&token=32016ab9-6e2e-40d0-9cfb-763b24140812" />
           </div>
         </div>
@@ -76,25 +77,9 @@ export default function TimelineDemo() {
       content: (
         <div>
           <p className="text-neutral-500 dark:text-neutral-500 text-xs md:text-sm font-bold mb-4">
-            Deployed 5 new components on Aceternity today
+           Um ano com vários passeios legais juntos.
           </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-500 dark:text-neutral-500 text-xs md:text-sm font-bold">
-              ✅ Card grid component
-            </div>
-            <div className="flex gap-2 items-center text-neutral-500 dark:text-neutral-500 text-xs md:text-sm font-bold">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex gap-2 items-center text-neutral-500 dark:text-neutral-500 text-xs md:text-sm font-bold">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex gap-2 items-center text-neutral-500 dark:text-neutral-500 text-xs md:text-sm font-bold">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex gap-2 items-center text-neutral-500 dark:text-neutral-500 text-xs md:text-sm font-bold">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
+          
           <div className="grid grid-cols-2 gap-4">
             <TiltSpotlight title={"Candlelight do Bruno Mars"} subtitle={"Nossa ida ao Candlelight do Bruninho. Nosso 'segundo' dia. Dia 30!"} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1662.JPG?alt=media&token=35fd6ccd-87aa-476d-898c-e562ac779927" />
             <TiltSpotlight title={"Eu te amo, Carolina"} subtitle={"Obrigado por todas esses experiências juntos."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1736.JPG?alt=media&token=3a4469aa-488c-45d0-a7fb-76dd6cfc21de" />
@@ -102,6 +87,18 @@ export default function TimelineDemo() {
             <TiltSpotlight title={"Lindos brilhantes"} subtitle={"Essa foto tá muito linda! Mais uma foto no Candlelight."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1746.JPG?alt=media&token=b499592b-7fc3-4996-95e3-bb507b6d8c04" />
             <TiltSpotlight title={"Prédios de Rico"} subtitle={"Você me acompanhou pra fazer gravações pra Where2GO e foi uma tarde muito especial - com um certo perrengue pra gravar."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_2361.jpg?alt=media&token=5006b344-8396-4373-9368-333640d4dbaf" />
             <TiltSpotlight title={"Churrasquinho"} subtitle={"Nosso primeiro churrasquinho na gráfica e aniversário da família juntos."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1895.JPG?alt=media&token=628ca711-0020-40ba-a9ee-f6455125b28b" />
+            <TiltSpotlight title={"Casamento"} subtitle={"Fotinho no casamento na minha segunda ida à Saint Peter."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1403.JPG?alt=media&token=18b53303-43d2-470e-b0c4-6fc098961fef" />
+            <TiltSpotlight title={"Montanha-Russa"} subtitle={"Nois na escadaria do Hopi-Hari bem cansados de um dia incrível."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1110.JPG?alt=media&token=bec0d0a8-244c-48e3-8ead-d6989b036d59" />
+            <TiltSpotlight title={"Minha lindeza"} subtitle={"Você bem linda enquanto assistíamos a Dani pulando."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1018.JPG?alt=media&token=07a7f337-2378-4de9-9136-ec312a576266" />
+            <TiltSpotlight title={"Nós"} subtitle={"NOIIIssss bem lindões, essa virou minha foto favorita (entre tantas favoritas)."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_1004.JPG?alt=media&token=2512ce0a-c8b2-4153-abe9-65e3756860da" />
+            <TiltSpotlight title={"Riozinho"} subtitle={"Foto virados pro riozinho do Hopi-Hari."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_0999.JPG?alt=media&token=c1edee0a-b45d-4aeb-b6bb-d9d6e2bb89fe" />
+            <TiltSpotlight title={"Os portões vão abrir"} subtitle={"Esperando o portão do Hopi-Hari para que começassemos nosso dia de adrenalina."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_0966.JPG?alt=media&token=0cd3e7f4-308c-48ab-90ab-6115077c7ffe" />
+            <TiltSpotlight title={"Doguinho"} subtitle={"Você brincando com o doguin quando estávamos na loja de pinga buscando presente pros meus pais."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_0489.JPG?alt=media&token=597a844d-a589-415d-8ad1-5d4f2e440fe0" />
+            <TiltSpotlight title={"Banquinho da praça"} subtitle={"Fotinho em frente à uma Igreja em Águas de São Pedro. Essa praçinha tava muito boa na sua companhia!"} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_0446.JPG?alt=media&token=904df37b-5f91-4348-9b43-c8b3acc23ec5" />
+            <TiltSpotlight title={"Mirante de Saint Peter"} subtitle={"Minha primeira subida à Serra de São Pedro quando tiramos foto lá de cima!"} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_0282.JPG?alt=media&token=37eca9a3-1a80-4013-a5ed-51e890563b2e" />
+            <TiltSpotlight title={"Mais do Mirante"} subtitle={"Tava bastante vento lá em cima! Amei esse passeio com você e sua família."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_0272.JPG?alt=media&token=847397c0-06c6-4da5-b6c5-93d4f0e92b00" />
+            <TiltSpotlight title={"Lindos"} subtitle={"A gente posando pra foto em São Pedro."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_0265.JPG?alt=media&token=f53ed8ce-e9ed-4b4d-9440-b001da23fc45" />
+            <TiltSpotlight title={"Primeira Adrenalina"} subtitle={"Nosso primeiro parque de diversões (foi no Animália) e fomos no brinquedo das motinhos que rodavam muito."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_0154.JPG?alt=media&token=70926bef-3741-4984-ba82-67a81a1f3304" />
 
           </div>
         </div>
