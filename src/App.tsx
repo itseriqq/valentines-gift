@@ -3,6 +3,7 @@ import Gallery from './pages/InfiniteGallery';
 import { Navbar } from './components/Navbar';
 import Playlist from './pages/Playlist';
 import Home from './pages/Home';
+import Texto from './pages/Texto';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function Main() {
       <Route path="/" element={<Home />} />
       <Route path="/galeria" element={<Gallery />} />
       <Route path="/playlist" element={<Playlist />} />
+      <Route path="/texto" element={<Texto />} />
       <Route path="*" element={<Home />} />
       </Routes>
     </>
