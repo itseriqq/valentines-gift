@@ -30,14 +30,6 @@ export default function TimelineDemo() {
       title: "2024",
       content: (
         <div>
-          <p className="text-neutral-500 dark:text-neutral-500 text-xs md:text-sm font-bold mb-8">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
-          </p>
-          <p className="text-neutral-500 dark:text-neutral-500 text-xs md:text-sm font-bold mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
-          </p>
           <div className="grid grid-cols-2 gap-4">
             <TiltSpotlight title={"Museu do Ipiranga"} subtitle={"Nossa primeira ida ao Museu do Ipiranga. (que podemos fazer de novo)"} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8799.jpg?alt=media&token=c7074b53-960f-4df7-a49a-3377fed6caba" />
             <TiltSpotlight title={"O Seu Sorriso"} subtitle={"O sorriso mais encantador que já encontrei e que toma conta de todo o meu amor."} image="https://firebasestorage.googleapis.com/v0/b/estoquestartgrafica.firebasestorage.app/o/IMG_8937.jpg?alt=media&token=916ca25b-6006-4e9d-8658-73eae11001e7" />

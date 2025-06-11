@@ -57,7 +57,7 @@ export function Spotify() {
       duration: 173,
       albumArt:
         "/album/toque_de_recolher.png",
-      music: ""
+      music: "/musics/toque_de_recolher.mp3"
     },
   ];
   return (
